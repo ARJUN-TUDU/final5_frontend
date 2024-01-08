@@ -22,7 +22,7 @@ function App() {
      e.preventDefault();
       try {
          
-        const res = await axios.post('http://localhost:5000/insert',
+        const res = await axios.post('https://final5.vercel.app/insert',
         {
           name,
           age

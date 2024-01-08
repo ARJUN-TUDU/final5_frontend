@@ -47,7 +47,7 @@ const Home = () => {
         
             try{
 
-              const list = await axios.get('http://localhost:5000/');
+              const list = await axios.get('https://final5.vercel.app/');
               
               if(list){
 
